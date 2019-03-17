@@ -11,11 +11,6 @@ public class ReadFromConsole {
 
     private static final Logger log = LogManager.getLogger(BizLogic.class);
     public static int choise;
-//    public static void setScanner(Scanner scanner) {
-//        ReadFromConsole.scanner = scanner;
-//    }
-
-
 
     public static int readConsole(Game game){
         log.info("Please, write number in range [" + game.getSmallest() + ": " + game.getBiggest() + "]");

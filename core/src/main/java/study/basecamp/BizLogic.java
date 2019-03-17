@@ -11,7 +11,7 @@ public class BizLogic {
     public static void getGameCycle(ConfigurableApplicationContext context) {
         Game game =context.getBean(Game.class);
         do {
-            log.info("You should write number in range [" + game.getSmallest() + ": " + game.getBiggest() + "]");
+//            log.info("You should write number in range [" + game.getSmallest() + ": " + game.getBiggest() + "]");
             int guess = 0;
             do {
                 guess = ReadFromConsole.readConsole(game);
