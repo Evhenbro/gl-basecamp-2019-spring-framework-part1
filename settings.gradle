@@ -1,0 +1,3 @@
+rootProject.name = 'gl-basecamp-2019-spring-framework-part1'
+include 'core'
+
